@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <a
+              href="https://www.youtube.com/"
+              target="_blank">
+              <img class="youtube-logo" src="icons/youtube-logo.svg" />
+            </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="notifications-count">7</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/user.jpg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/1.webp" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/1.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Hola ji ka Thailand ka ticket? | The Culprit | BB Ki Vines
+              </p>
+              <p class="video-author">BB Ki Vines</p>
+              <p class="video-stats">48M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/2.webp" />
+            </a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/2.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Events Prior to the First Episode (Before 2005) | How I Met
+                Your Mother
+              </p>
+              <p class="video-author">ReliqueOz23</p>
+              <p class="video-stats">1.9M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/3.webp" />
+            </a>
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/3.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Best of Chandler Jokes | Friends</p>
+              <p class="video-author">Friends</p>
+              <p class="video-stats">1M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/4.webp" />
+            </a>
+            <div class="video-time">16:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/4.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                GTX 1650 vs RTX 3050 - DON’T Buy a 1650 Gaming Laptop!
+              </p>
+              <p class="video-author">Jorrods'sTech</p>
+              <p class="video-stats">331K views &#183; 1 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/5.webp" />
+            </a>
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/5.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                We Rollin (Official Video) - Shubh | Rubbal GTR
+              </p>
+              <p class="video-author">SHUBH</p>
+              <p class="video-stats">60M views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/6.webp" />
+            </a>
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/6.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">1899 | Official Trailer | Netflix</p>
+              <p class="video-author">Netflix</p>
+              <p class="video-stats">4.5M views &#183; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/7.webp" />
+            </a>
+            <div class="video-time">56:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/7.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Martin Garrix - Live @ Tomorrowland 2018
+              </p>
+              <p class="video-author">Martin Garrix</p>
+              <p class="video-stats">41M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/8.webp" />
+            </a>
+            <div class="video-time">8:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/8.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The New iPad is Weird!</p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &#183; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/9.webp" />
+            </a>
+
+            <div class="video-time">2:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/9.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Better Together</p>
+              <p class="video-author">Rio Sage</p>
+              <p class="video-stats">24K views &#183; 5 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=oRo_HWaaoNw"
+              target="_blank"
+              ><img class="thumbnail" src="thumbnails/10.webp"
+            /></a>
+
+            <div class="video-time">3:21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/watch?v=oRo_HWaaoNw"
+                target="_blank"
+                ><img class="profile-picture" src="channel-pictures/10.jpg"
+              /></a>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Chainsmokers, Ship Wrek - The Fall (4NOTES Remix)
+              </p>
+              <p class="video-author">4NOTES Music</p>
+              <p class="video-stats">143M views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=mKmfjHHw850"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/11.webp"/>
+            </a>
+            <div class="video-time">3:38</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/11.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Best of CSGO Highlights : 8</p>
+              <p class="video-author">Hawk Encounters</p>
+              <p class="video-stats">69M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank">
+              <img class="thumbnail" src="thumbnails/12.webp" />
+            </a>
+            <div class="video-time">0:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/12.jpg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                NVIDIA DLSS 3 | Multiplying performance with AI
+              </p>
+              <p class="video-author">NVIDIA GeForce</p>
+              <p class="video-stats">21K views &#183; 8 days ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
